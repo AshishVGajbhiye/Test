@@ -10,8 +10,7 @@ Flask Testing
  Heroku
  App name: mlregress
  Mail: ashish.ivanka@gmail.com
- API key
- 5420b389-b4e1-4094-9f51-9329f0060e3b
+ API key <>
 
  Build docker image
  docker build -t<image_name>:<tagname> .
@@ -25,7 +24,7 @@ Flask Testing
 b
  Run docker image
  '''
- docker run -p 5000:5000 -e PORT =5000 b07611c87e36
+ docker run -p 5000:5000 -e PORT=5000 b07611c87e36
  '''
  To check docker running
  '''
